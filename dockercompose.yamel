@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    image: 3.140.198.49:4000/mi-app-node:v1
+    
+    ports:
+      - "3001:6000"
+      
+    environment:
+      - PORT=6000
