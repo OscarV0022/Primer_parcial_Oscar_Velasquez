@@ -25,6 +25,4 @@ app.listen(PORT, () => {
     console.log(`Servidor iniciado por: Oscar`);
     console.log(`Fecha y Hora: ${new Date().toLocaleString()}`);
     console.log(`Escuchando en puerto: ${PORT}`);
-
-    console.log("Validación de CI/CD");
 });
